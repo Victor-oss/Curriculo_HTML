@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+*{
+    margin: 0;
+}
+:root{
+    --azul_escuro:#031240;
+    --quase_branco: #DBE5E8;
+    --azul_claro: #378DAA;
+    --azul_mais_claro: #319ECC;
+    --quase_cinza: #8FBABF;
+    /*--fonte_padrao: Arial, Verdana, Helvetica, sans-serif;*/
+}
+.menu{
+    margin-top: 50px;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    height: 350px;
+    margin: 0px;
+    background: linear-gradient(to bottom, var(--azul_escuro), var(--azul_claro));
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 330px;
+}
+nav{
+    float: center;
+    position: fixed;
+    background-color: var(--azul_escuro);
+    width: 100%;
+}
+.menu{
+    margin: 0px;
+    text-align: center;
+}
+.menu a{
+    /*display: block;*/
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+    float: center;
+}
+.menu a label{
+    margin-left: 10px;
+}
+.menu a:hover{
+    background-color: var(--quase_cinza);
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 50px;
+}
+.sobre_mim{
+    margin-left: 20px;
+}
+p{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+strong{
+    color: var(--azul_mais_claro);
+}
+h2{
+    text-align: center;
+    margin: 50px 0px 15px 0px;
+    font-family: 'Tourney', cursive;
+}
+#topico1{
+    background-color: var(--quase_branco);
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.experiencia_acad{
+    width: 200px;
+    background-color: white;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+}
+h3{
+    color: var(--azul_mais_claro);
+    margin-left: 250px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+picture{
+    margin-left: 30%;
+}
+
+.texto_topico1{
+    margin-left: 30%;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    text-align: justify;
+    width: 600px;
+    font-size: 25x;
+}
+body{
+    background-color: var(--quase_branco);
+}
+main{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
